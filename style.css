@@ -1,0 +1,80 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/275-ake9853-jj-film.jpg?w=1200&h=1200&dpr=1&fit=clip&crop=default&fm=jpg&q=75&vib=3&con=3&usm=15&cs=srgb&bg=F4F4F3&ixlib=js-2.2.1&s=fe5c22db39420bb0a8261ac9159daee4);
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Times New Roman';
+}
+
+h1 {
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.col-md-6 {
+    background: black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    opacity: 0.8;
+}
+
+label {
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.input-group {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.input-group-addon {
+    background: transparent;
+    border-radius: 0px;
+    border: 0px;
+    border-bottom: 1px solid gray;
+    font-size: 30px;
+    color: gray;
+    padding:0px 5px;
+}
+
+.form-control {
+    background: transparent;
+    border-radius: 0px;
+    border: 0px;
+    border-bottom: 1px solid gray;
+    padding: 15px;
+    color: white;
+    font-size: 18px;
+}
+
+.form-check-label {
+    color: gray;
+}
+
+a {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+.btn-default {
+    border-radius: 0px;
+    background-color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.bi-block {
+    color: white;
+    font-size:x-large 
+}

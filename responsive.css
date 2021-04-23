@@ -1,0 +1,128 @@
+/* For Laptops and pc*/
+@media all and (max-width: 2000px) {
+    .menu-icon {
+        color: transparent;
+        display: none;
+    }
+    
+    .menu-item {
+      display: none;
+    }
+    
+    .dropbtn{
+      display: none;
+    }
+}
+
+/* For Tablets */
+@media all and (max-width: 1000px) {
+  .header-right {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+    color: white;
+    padding-right: 80px;
+    height: 100px;
+    float: right;
+  }  
+
+    header {
+      max-width: 1000px;
+    }
+
+    .top-wrapper {
+      max-width: 1000px;
+      background-image: url(https://whhcpas.com/wp-content/uploads/2018/03/et.jpeg);
+    }
+
+    .top-wrapper h1 {
+        font-size: 50px;
+    }
+    
+    .heading h2 {
+    font-size: 20px;
+    }
+    
+    .course {
+      max-width: 1000px;
+      width: 90%;
+      align-self: center;
+      margin-bottom: 50px;
+    }
+
+    .courses {
+        display: block;
+    }
+
+    .about-right {
+      display: none;
+    }
+    
+    .about-left {
+      width: 80%;
+    }
+
+    footer {
+      text-align: center;
+      height: 400px;
+    }
+}
+  
+  /* For Smartphones */
+@media all and (max-width: 670px) {
+    .header-right {
+      display: none;
+    }
+
+    .menu-icon {
+      display: block;
+      color: white;
+      float: right;
+      padding: 0 50px;
+      height: 100px;
+    }
+
+    .top-wrapper h1 {
+      font-size: 35px;
+      line-height: 36px;
+    }
+    
+    .top-wrapper p {
+      font-size: 14px;
+      line-height: 20px;
+    }
+    
+    .top-wrapper {
+      text-align: left;
+    }
+    
+    .course {
+      max-width: 670px;
+      width: 90%;
+      align-self: center;
+    }
+
+    .courses {
+        display: block;
+        align-items: center;
+    }
+
+    .about-right {
+      display: none;
+    }
+    
+    .about-left {
+      width: 90%;
+    }
+
+    .about-wrapper ,.contact-wrapper {
+      height: 800px;
+    }
+
+    footer {
+      text-align: center;
+      height: 450px;
+    }
+}
