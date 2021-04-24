@@ -107,6 +107,7 @@ header{
 }
   
 .top-wrapper {
+  width:100%;
   margin-top: 65px;
   top: 65px;
   padding: 180px 0 100px 0;
@@ -146,6 +147,7 @@ header{
 }
 
 .course-wrapper {
+    width:100%;
     padding-bottom: 80px;
     padding-top: 80px;
     background-color: #f7f7f7;
@@ -256,6 +258,7 @@ header{
 }
 
 .about-wrapper ,.contact-wrapper {
+  width:100%;
   margin-top: 50px;
   background-image: url(https://i.pinimg.com/originals/f1/4d/7f/f14d7f9d45d86f527bc88e2cd995754f.jpg);
   background-size: cover;
@@ -363,6 +366,7 @@ footer img {
 }
 
 footer {
+  width:100%;
   margin-top: 50px;
   padding-top: 30px;
   padding-bottom: 20px;
